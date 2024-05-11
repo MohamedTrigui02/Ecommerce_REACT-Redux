@@ -1,0 +1,43 @@
+/* Add this CSS to your stylesheet or component styles */
+
+/* Style for the select dropdown */
+label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  select {
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  /* Style for the article cards container */
+  .article-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around; /* Adjust as needed */
+  }
+  
+  /* Optional: Add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .article-cards {
+      justify-content: center; /* Center cards on smaller screens */
+    }
+  }
+  
+  /* Optional: Style for the loading message */
+  p.loading-message {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  /* Optional: Style for the error message */
+  p.error-message {
+    font-size: 18px;
+    color: red;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,7 @@
+/* Styles CSS */
+.custom-image {
+    height: 510px; /* Hauteur souhaitée */
+    object-fit: cover; /* Pour conserver le ratio */
+  }
+  /**----------------------------------------------/
+  

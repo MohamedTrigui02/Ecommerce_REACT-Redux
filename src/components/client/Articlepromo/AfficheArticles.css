@@ -1,0 +1,95 @@
+/* ArticleCard.css */
+
+/* Style de la carte */
+.card {
+  width: 20rem;
+  margin-bottom: 20px; /* Espacement entre les cartes */
+  border: 1px solid hwb(189 4% 10%);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price{
+  font-size: 30px;
+  color: #ff0000;
+}
+
+/* Style du titre de la carte */
+.card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style du texte de la carte */
+.card .card-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Style des boutons */
+.card .btn-custom {
+  width: calc(50% - 5px); /* Taille des boutons */
+  margin-right: 10px; /* Espacement entre les boutons */
+  border-radius: 0;
+  transition: all 0.3s ease; /* Animation au survol */
+}
+
+/* Animation au survol des boutons */
+.card .btn-custom:hover {
+  transform: translateY(-5px); /* Animation de translation */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre au survol */
+}
+
+/* Style du bouton 'Add to Cart' */
+.card .btn-add-to-cart {
+  background-color: #0bc5e5; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+}
+
+/* Style du bouton 'Voir Produit' */
+.card .btn-view-product {
+  background-color: #6c757d; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-custom {
+  /* Styles communs pour les boutons */
+  width: 150px; /* Définir une largeur uniforme pour les boutons */
+  height: 40px; /* Définir une hauteur uniforme pour les boutons */
+  /* Ajoutez d'autres styles personnalisés si nécessaire */
+}
+
+/* Appliquez les styles spécifiques aux boutons */
+.btn-add-to-cart {
+  background-color: blue; /* Exemple de couleur pour le bouton 'Add to cart' */
+}
+
+.btn-view-product {
+  background-color: green; /* Exemple de couleur pour le bouton 'Voir Produit' */
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333; /* Couleur du texte */
+  margin-top: 70px;
+}
+.carde {
+  height: 500px; /* Hauteur spécifique pour toutes les cartes */
+  /* Autres styles si nécessaire */
+}

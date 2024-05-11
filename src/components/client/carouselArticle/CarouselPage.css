@@ -1,0 +1,77 @@
+/* CarouselPage.css */
+
+/* ... Autres styles ... */
+
+.categories-title,
+.subcategories-titlee,
+.products-titlee {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px; /* Ajoute de l'espace en bas des titres */
+  text-transform: uppercase;
+  margin-top: 50px; /* Ajoute de l'espace en haut des titres */
+  text-align: center; /* Centre le texte */
+  position: relative;
+  display: inline-block;
+}
+
+.categories-title:before,
+.categories-title:after,
+.subcategories-titlee:before,
+.subcategories-titlee:after,
+.products-titlee:before,
+.products-titlee:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background-color: #000; /* Couleur de la ligne */
+  z-index: -1; /* Place les lignes derrière le texte */
+}
+
+.categories-title:before,
+.subcategories-titlee:before,
+.products-titlee:before {
+  right: 100%; /* Positionne la première ligne à gauche */
+  margin-right: 15px; /* Espacement entre le titre et la ligne de gauche */
+}
+
+.categories-title:after,
+.subcategories-titlee:after,
+.products-titlee:after {
+  left: 100%; /* Positionne la deuxième ligne à droite */
+  margin-left: 15px; /* Espacement entre le titre et la ligne de droite */
+}
+
+.loading-text {
+  font-style: italic;
+  color: #777;
+  /* Autres styles pour le texte de chargement */
+}
+/* Style du carousel */
+.react-multi-carousel-item {
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.react-multi-carousel-item:hover {
+  border-color: #0055ff;
+}
+
+
+/* Style des descriptions */
+.react-multi-carousel-item > div {
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Animation au survol */
+.react-multi-carousel-item:hover img {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+}

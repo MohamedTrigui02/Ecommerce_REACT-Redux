@@ -1,0 +1,15 @@
+/* VotreComposant.css */
+.votre-composant {
+    margin: 0 auto;
+    height: 500px; /* Exemple de hauteur définie pour le composant */
+    overflow: auto; /* Ajout de défilement si le contenu dépasse la hauteur */
+    margin-bottom: 30px; /* Ajout d'un espacement en bas du composant */
+  }
+  
+#galerie {
+    text-align: center;
+    text-decoration: underline overline coral;
+    font-family: 'georgia';
+    margin-top: 50px;
+  }
+  
